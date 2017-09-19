@@ -1,0 +1,55 @@
+/* Styles the header */
+h1 {
+   text-align: center;
+   font-size: 60px;
+}
+
+body {
+ background-color: skyblue;
+}
+
+
+/* Styles the individual elements in the Navbar */
+nav li{
+	width: 200px;
+	/* display inline makes list horiz. */
+	display: inline;
+	margin: 10px;
+	position: relative;
+	top: -20px;
+	font-size: 25px;
+	padding: 10px;
+}
+
+/* Styles the nav bar as a whole */
+nav {
+	text-align: center;
+}
+
+/*FEEL FREE TO PLAY AROUND WITH THE COLORS FOR THE FOLLOWING */
+/*Styles the properties of the non active links*/
+.notOn {
+	color: navy;
+	text-decoration: none;
+}
+
+/*Styles the properties of the non active links*/
+ a.currentlink {
+	color: white;
+	text-decoration: none;
+}
+
+/*Styles the properties of the non active links when you hover over them */
+a.notOn:hover {
+	color: red;
+	text-decoration: none;
+}
+
+/*Styles the properties of the  active links when you hover over them */
+a.currentlink:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
+
