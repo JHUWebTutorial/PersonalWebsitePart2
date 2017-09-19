@@ -8,6 +8,31 @@ body {
  background-color: skyblue;
 }
 
+.large {
+    font-size: 32px;
+}
+
+.redStyle {
+    color: red;
+}
+
+/* Table styling */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Makes every other table element gray*/
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 /* Styles the individual elements in the Navbar */
 nav li{
