@@ -1,2 +1,2 @@
-# PersonalWebsitePart1
-This is roughly how far we got after our first meeting!
+# PersonalWebsitePart2
+This is roughly how far we got after our second meeting.
